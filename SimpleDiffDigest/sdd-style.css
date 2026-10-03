@@ -1,0 +1,26 @@
+.sdd-panel {
+	border-color: grey;
+	border-width: 4px;
+	border-style: groove;
+	
+	min-height: 3em;
+	padding-top: 2em;
+	padding-bottom: 4em;
+}
+
+.sdd-panel td:not(.sdd-difftype-heading):hover {
+	border-top: 1px #000 solid;
+	border-bottom: 1px #000 solid;
+	background-color: lightcyan;
+	cursor: pointer;
+}
+
+.sdd-difftype-heading {
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+	font-weight: bold;
+}
+
+.sdd-scrollto {
+	border: 3px red solid;
+}
